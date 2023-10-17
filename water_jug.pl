@@ -25,3 +25,5 @@ main(Moves) :-
     InitialState = (0,0),
     MaxDepth = 20,
     solve(InitialState, [InitialState], Moves, MaxDepth).
+
+%main(Moves). to run
